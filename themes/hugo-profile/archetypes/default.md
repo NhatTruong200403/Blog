@@ -1,6 +1,6 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
-date: "2024-12-31"
+date: "{{ site.time | date_to_string }}"
 draft: true
 author:
 tags:
